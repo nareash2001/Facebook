@@ -1,0 +1,53 @@
+
+.loginpage-bottom{
+    padding-top: 29px;
+    width: 980px;
+    margin: auto;
+}
+.loginpage-bottom ul{
+    display: flex;
+    flex-direction: row;
+}
+.loginpage-bottom ul li{
+ list-style: none;
+ font-family: Arial, Helvetica, sans-serif;
+ padding-left: 10px;
+ color: #8A8D91;
+ display: flex;
+ align-items: center;
+}
+.loginpage-bottom-ul-li-one{
+    padding: 0 !important;
+    font-size: 12px;
+    line-height: 16.08px;
+    color:#737373;
+}
+.loginpage-bottom ul li a{
+    color: #8A8D91;
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 19.2px;
+}
+.loginpage-bottom ul li a:hover{
+    text-decoration:underline;
+}
+.loginpage-bottom-line{
+    height:8px;
+    border-bottom: 1px solid #dddfe2;
+    margin-bottom: 8px;
+}
+.loginpage-bottom-link ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 102%;
+    margin-left: -20px;
+}
+.loginpage-bottom-link ul li{
+    padding-left: 20px;
+}
+.loginpage-bottom-last{
+    color: #737373;
+    margin: 20px 0;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,55 @@
+.forgotpagetop{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    background-color: white;
+    padding: 0 16px;
+    justify-content: space-between;
+}
+.forgotpagetopleft svg{
+    fill:var(--bluecolor);
+    padding-top:4px;
+}
+.forgotpagetopright{
+    display: flex;
+    align-items: center;
+    padding-right:16px;
+    height: 100%;
+    gap:8px;
+    margin-top: -1px;
+}
+.forgotpagetopright a{
+    color:var(--bluecolor);
+    font-family: var(--font);
+    font-size: 15px;
+}
+.forgotloginbutton{
+    margin-right:4px;
+    background-color: var(--bluecolor);
+    cursor: pointer;
+    color: white;
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight:600;
+    width: 69px;
+    padding:11px 0 12px 0;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+.forgotpasswordinput input,.forgotemailinput input{
+    padding:10px 12px 11px 12px;
+    width: 188px;
+    border: 1px solid #D9D9DD;
+    box-sizing: border-box;
+    font-family: var(--font);
+    font-size: 15px;
+    border-radius: 5px ;
+}
+.forgotpasswordinput input:hover,.forgotemailinput input:hover{
+border-color: black;
+}
+.forgotpasswordinput input:focus,.forgotemailinput input:focus{
+border-color: var(--bluecolor);
+outline: none;
+}

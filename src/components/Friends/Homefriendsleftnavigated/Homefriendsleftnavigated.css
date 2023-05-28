@@ -1,0 +1,81 @@
+.homefriendicon i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/z09UNuMDxbY.png);
+    background-position: -21px -105px;
+
+}
+
+.friendrequesticon i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/Kz357JUPgfj.png);
+    background-position: 0px -193px;
+}
+
+.suggestionicon i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yR/r/SMTe2B90MAF.png);
+    background-position: 0px -109px;
+}
+
+.allfriendicon i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/tggrqaW1eN6.png);
+    background-position: 0px -371px;
+}
+
+.birthdayicon i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yM/r/U0cW-poGHhT.png);
+    background-position: 0px -92px;
+}
+
+.customlisticon i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/tggrqaW1eN6.png);
+    background-position: 0px -371px;
+}
+
+.friendtagselected div .friendsicon {
+    background-color: var(--bluecolor);
+}
+
+.friendslistnavigatenext {
+    height: calc(100vmin - 110px) !important;
+    overflow: hidden;
+    margin-top: -14px;
+    padding: 0px 8px;
+}
+
+.friendslistnavigatenext:hover {
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.friendslistnavigatenext::-webkit-scrollbar {
+    width: 16px;
+}
+
+.friendslistnavigatenext::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.friendslistnavigatenext::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 100px;
+    border-left: 3px solid #F1F2F4;
+    border-right: 5px solid #f1f2f4
+}
+
+.friendslistnamenavigate {
+    font-size: 17px;
+    padding-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    width: 86%;
+}
+
+.friendslistnamenavigate i {
+    background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/yA/r/xIt6GUZpavK.png");
+    background-position: -21px -84px;
+    background-size: auto;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: -5px;
+    filter:invert(39%) sepia(21%) saturate(200%) saturate(109.5%) hue-rotate(174deg) brightness(94%) contrast(86%);
+}

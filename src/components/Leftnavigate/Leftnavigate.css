@@ -1,0 +1,112 @@
+.leftnavigate{
+    background-color:#fff;
+    width: 360px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    position:fixed;
+    height: calc(100vmin - 56px);
+}
+.leftnavigatecontent{
+    height: calc(100vmin - 160px);
+    padding:3px 8px;
+    overflow: hidden;
+}
+.leftnavigatecontent:hover{
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+.leftnavigatecontent::-webkit-scrollbar {
+    width: 16px;
+}
+
+.leftnavigatecontent::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.leftnavigatecontent::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 100px;
+    border-left: 3px solid #F1F2F4;
+    border-right: 5px solid #f1f2f4
+}
+
+.leftnavigatewatchtag{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    height: 52px;
+    border-radius: 8px;
+    padding: 0 8px;
+    color: black;
+    font-family: var(--font);
+    font-size: 15px;
+}
+.leftnavigatewatchtag:hover{
+    background-color: #F0F3F4;  
+}
+.leftnavigatewatchhome i{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/y9VwGz1wmny.png);
+    background-position: 0px -1406px;
+   
+}
+
+.leftnavigatewatchicon i{
+    background-size: auto;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.leftnavigatewatchlive i{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/4tjyz8b913U.png);
+    background-position: 0px -88px;
+}
+.leftnavigatewatchreels i{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/y9VwGz1wmny.png);
+    background-position: 0px -167px;
+}
+.leftnavigatewatchmusic i{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/4tjyz8b913U.png);
+    background-position: 0px -235px;
+}
+.leftnavigatewatchshows i{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/4tjyz8b913U.png);
+    background-position: 0px -151px;
+}
+.leftnavigatewatchsaved i{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yt/r/4tjyz8b913U.png);
+    background-position: 0px -67px;
+}
+
+.leftnavigatewatchicon{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    background-color: #E4E6EB ;
+}
+.tagselected div{
+    background-color: #F0F3F4;  
+}
+.watchtaghomeselected .leftnavigatewatchicon{
+    background-color:var(--bluecolor);
+}
+.watchtagliveselected .leftnavigatewatchicon{
+    background-color:#F0284A;
+}
+.watchtagreelsselected .leftnavigatewatchicon{
+    background-color:#39c44b;
+}
+.watchtagmusicselected .leftnavigatewatchicon{
+    background-color:#9260F6;
+}
+.watchtagshowsselected .leftnavigatewatchicon{
+    background-color:#2ABBA7;
+}
+.watchtagsavedselected .leftnavigatewatchicon{
+    background-color:#F6B828;
+}
+.tagselected .leftnavigatewatchicon i{
+    filter:invert(100%);
+}

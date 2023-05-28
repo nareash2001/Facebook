@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+}
+@font-face {
+    font-family: facebook narrow;
+    src: url("./Font/facebook\ narrow.ttf");
+}
+@font-face {
+    font-family: facebook stencil;
+    src: url("./Font/facebook\ stencil.ttf");
+}
+@font-face {
+    font-family: facebook script app light;
+    src: url("./Font/facebook\ script\ app\ light.ttf");
+}
+@font-face {
+    font-family: facebook sans app heavy italic;
+    src: url("./Font/facebook\ sans\ app\ heavy\ italic.ttf");
+}
+@font-face {
+    font-family: facebook sans app;
+    src: url("./Font/facebook\ sans\ app.ttf");
+}
+html{
+    overflow-y: scroll;
+}
+:root{
+    --bodycolor:#E8EBEF;
+--bluecolor:#1877f2;
+--font:Arial, Helvetica, sans-serif;
+}
+
+.clusor{
+    cursor: pointer;
+}
+.underlinehover:hover{
+    text-decoration: underline;
+}
+.displayflexcenter{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.displayflex{
+    display: flex;
+}
+.displayflexalign{
+    display:flex;
+    align-items: center;
+}
+#displaynone{
+    display:none
+}
+#displayblock{
+    display: block;
+}
+
+.MuiDialog-container {
+    overflow-y: scroll;
+}

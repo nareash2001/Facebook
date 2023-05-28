@@ -1,0 +1,175 @@
+.postcreatedialogcontainer{
+    height:200px;
+    padding: 5px 16px;
+    overflow-y: hidden;
+    box-sizing:border-box;
+}
+.postcreatedialogcontainer:hover{
+  overflow-y: auto;
+  padding-right:0px;
+}
+.postcreatedialogcontainer::-webkit-scrollbar {
+  width: 16px;
+}
+
+.postcreatedialogcontainer::-webkit-scrollbar-track {
+  background: transparent
+}
+
+.postcreatedialogcontainer::-webkit-scrollbar-thumb {
+  background: #a7a5a5;
+  border-radius: 100px;
+  border-left: 3px solid #fff;
+  border-right: 5px solid #fff;
+}
+.postcreatecaptioncontainer{
+  justify-content:space-between;
+  height:fit-content;
+  width: 100%;
+  font-family: var(--font);
+}
+.postcreatecaption{
+  width: 100%;
+  outline: none;
+  padding-top: 2px;
+  user-select: text;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-size: 15px;
+  line-height: 1.3333;
+}
+.postcreatecaption p{
+  color: #65676B;
+  font-size: .9375rem;
+  margin-top: -2px;
+}
+.postcreatecaptionemoji{
+  display: flex;
+  align-items:flex-end;
+}
+.postcreatecaptionemoji i{
+  height: 24px;
+  width: 24px;
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/Y47iV2bdvqC.png);
+  background-position: 0px -183px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 10px;
+}
+.postcreatedialogimgcontainer{
+  margin-top: 27px;
+  border: 1px solid #CED0D4;
+  border-radius: 8px;
+  padding: 8px;
+}
+.postcreatedialogimg{
+  background-color:#F6F8FB;
+  height: 150px;
+  border-radius: 8px;
+  flex-direction: column;
+}
+.postcreatedialogimgview{
+  max-height: 500px;
+  height:fit-content;
+  width: 100%;
+}
+.postcreatedialogimg:hover{
+  background-color:  rgba(0, 0, 0, 0.05);
+
+}
+.postcreatedialogimgclose i{
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/0aymGy25XGN.png);
+  background-position: -126px -84px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter:invert(39%) sepia(21%) saturate(200%) saturate(109.5%) hue-rotate(174deg) brightness(94%) contrast(86%);
+}
+.postcreatedialogimgclose span{
+  height: 36px;
+  width: 36px;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow:0 0 0 1px rgba(0, 0, 0, 0.1);
+  transform: scale(0.8);
+}
+.postcreatedialogimgclose{  
+  justify-content: flex-end;
+  padding: 4px 2px 0 0;
+  position:relative;
+  margin-bottom: -40px;
+  z-index:500;
+}
+.postcreatedialogimgclose span:hover{
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.postcreatedialogimgicon span i{
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/FUORWl2ZrHy.png);
+  background-position: 0px -83px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  filter:invert(8%) sepia(10%) saturate(200%) saturate(200%) saturate(166%) hue-rotate(177deg) brightness(104%) contrast(91%);
+}
+.postcreatedialogimgicon span{
+  width:40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #E4E6EB;
+}
+.postcreatedialogimgcontent{
+  flex-direction: column;
+  font-size: 1.0625rem;
+  font-family: var(--font);
+  padding-top: 5px;
+  color: #050505;
+}
+.postcreatedialogimgcontent2{
+  color: #65676B;
+  font-size: .75rem;
+}
+.postcreatedialogimg2{
+  background-color:#F6F8FB;
+  border-radius: 8px;
+  height: 56px;
+  margin-top: 8px;
+  padding: 0 6px 0 12px;
+  font-family: var(--font);
+  font-size: .8125rem;
+  color: #050505;
+  justify-content: space-between;
+}
+.postcreatedialogimg2mobileicon{
+  margin-right: 10px;
+}
+.postcreatedialogimg2mobileicon span{
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+  background-color: #E4E6EB;
+}
+.postcreatedialogimg2mobileicon i{
+  background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/9GjI-Bh5Fl1.png);
+  background-position: 0px -284px;
+  background-size: auto;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.postcreatedialogimg2button{
+padding:0 12px;
+outline: none;
+border: none;
+border-radius: 8px;
+height: 36px;
+font-weight: 600;
+font-size: .9375rem;
+color: #050505;
+background-color: #E4E6EB;;
+}

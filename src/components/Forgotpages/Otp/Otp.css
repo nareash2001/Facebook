@@ -1,0 +1,59 @@
+.otpcontent1{
+    padding:0 16px;
+    margin-top: -1px;
+}
+.otpcontent2{
+    display: flex;
+    padding:20px 16px 16px;
+    border-bottom: 1px solid var(--bodycolor);
+}
+.otpinputbox input{
+padding: 16px;
+border: 1px solid #ccd0d5;
+border-radius: 6px;
+font-size: 16px;
+font-family: var(--font);
+max-width: 80.5%;
+outline: none;
+}
+.otpcontent2right{
+    padding-left: 5px;
+    padding-top: 1px;
+    font-size: 15px;
+    font-family: var(--font);
+}
+.otpcontent2rightsecond{
+    font-size: 13px;
+    padding-top: 12px;
+}
+.otpcontent3{
+    padding: 16px 16px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.otpcontent3left{
+    font-size: 13px;
+    color: var(--bluecolor);
+    padding-top: 12px;
+}
+.otpwarning{
+    margin:-1px 16px 11px;
+    border: 1px solid #E6513D;
+    display: flex;
+    border-radius: 3px;
+}
+.otpwarningicon{
+    display: flex;
+    background-color: #E6513D;
+    padding: 8px 10px 0;
+}
+.otpwarningicon img{
+width: 20px;
+height: 20px;
+}
+.otpwarningmessage{
+    font-size: 14px;
+    padding:9px 10px;
+    line-height: 18px;
+    font-family: var(--font);
+}

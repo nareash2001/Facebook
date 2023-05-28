@@ -1,0 +1,26 @@
+.homecontent{
+    display: flex;
+    justify-content:center;
+}
+.homepostcontainerouter{
+
+    max-width: 1080px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.homeleftnav-outer,.homecontactlist{
+    width: 100%;
+    max-width: 360px;
+    display: flex;
+    justify-content: flex-end;
+}
+@media screen and (max-width:1230px) {
+    .homeleftnav-outer,.homecontactlist{
+        display: none;
+    }
+    .homecontent{
+        display: flex;
+        justify-content:center;
+    }
+}

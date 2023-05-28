@@ -1,0 +1,5 @@
+
+.body{
+    min-height:calc(100vmin - 55px);
+    background-color:#F1F2F4;
+}

@@ -1,0 +1,62 @@
+
+.storycreatepagebody{
+    width: 100%;
+    height:100vh;
+    max-height: calc(100vmin - 56px);
+    gap:20px
+}
+.photostorycreatepagebody{
+    background-position: 0px 0px;
+}
+.textstorycreatepagebody{
+    background-position: 0px -331px;
+}
+.storycreatepagebodycontent{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/Zd_TxH-pOMv.png);
+    background-size: auto;
+    width: 220px;
+    height: 330px;
+    background-repeat: no-repeat;
+    margin-top:-3px;
+}
+.storycreatepagebodycontent:hover{
+    filter:grayscale(10%)
+}
+.createstoryphotoicon i{
+        background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/A0n_qp_qv79.png");
+        background-position: 0px -310px;
+        background-size: auto;
+        width: 20px;
+        height: 20px;
+        background-repeat: no-repeat;
+        display: inline-block;
+}
+.createstoryphotoicon,.createstorytexticon{
+    background-color: #fff;
+    border-radius: 50px;
+    height: 44px;
+    width: 44px;
+    margin-left: 1px; 
+}
+.storycreatepagebodycontent1{
+    flex-direction: column;
+    gap:8px;
+    margin-top:1px
+}
+.storycreatepagebodycontent h5{
+    color: #fff;
+    font-family: var(--font);
+    font-size:10pt;
+    font-weight: bold;
+    padding-top: 1px;
+}
+.createstorytexticon i
+{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/kzua3Kl7Ege.png);
+    background-position: 0px -147px;
+    background-size: auto;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}

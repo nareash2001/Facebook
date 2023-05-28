@@ -1,0 +1,49 @@
+.postcreatedialogwriter {
+    padding: 4px 0 8px;
+}
+
+#postcreatedialogwriterarea {
+    padding: 0 16px 39px;
+    min-height: 70px;
+    outline: none;
+    font-family: var(--font);
+    color: #050505;
+    background-color:inherit;
+}
+
+.lengthbelow {
+    font-size: 24px;
+}
+
+.lengthabove {
+    font-size: 15px;
+}
+
+#postcreatedialogwriterarea p {
+    font-family: var(--font);
+    color: #65676B;
+    font-size: 1.5rem;
+}
+
+.postcreatetheme {
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postcreatetheme img {
+    height: 38px;
+    margin-left: -3px;
+}
+
+.postcreatetheme i {
+    height: 24px;
+    width: 24px;
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yg/r/Y47iV2bdvqC.png);
+    background-position: 0px -183px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-top: 10px;
+}

@@ -1,0 +1,75 @@
+.videopost{
+    width:100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.videoposttitle{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 4px 16px 12px;
+
+}
+.videoposttitletop{
+    display: flex;
+}
+.videoposttitletop img{
+  height: 48px;
+  width: 48px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+.videoposttitlename{
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+.videoposttitleaccountname,.videoposttitlefollow{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.videoposttitlefollow{
+    color: var(--bluecolor);
+}
+.videopostdotbig{
+    font-size: 17px;
+    color: #65676B;
+    padding: 5px;
+}
+.videoposttitlenamesecond{
+    font-size: 13px;
+    color: #65676B;
+    padding-top: 4px;
+}
+.videopostsetting{
+    width: 42px !important;
+    height: 36px;
+    border-radius: 50px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.videopostsetting:hover{
+    background-color: var(--bodycolor);
+}
+.videopostsetting i{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/66gypToYHKx.png);
+    background-position: -21px -169px;
+    background-size: auto;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.videopostvideo{
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+.videopostvideo video{
+    
+    width: 100%;
+}

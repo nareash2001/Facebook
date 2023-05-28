@@ -1,0 +1,51 @@
+
+.loginpage-gray{
+    height:fit-content;
+    background-color: #F1F3F5;
+    padding: 92px 0 193px 0;
+    margin:auto;
+    display:flex;
+    justify-content: center;
+}
+.loginpage-left{
+    width: 548px;
+    padding-right: 32px;
+    margin-left: -4px;
+}
+.loginpage-left h2{
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400; 
+    width: 500px;
+    color:#1C1E21;
+    padding-bottom: 20px;
+}
+
+.loginpage-left-logo{
+    padding: 112px 0 16px 0;
+}
+.loginpage-left-logo img{
+    height:106px;
+    margin: -28px;
+}
+
+.createpage-login{
+    text-align: center;
+    margin-top: 29px;
+    color: #1C1E21;
+    font-family: SFProDisplay-Bold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.createpage-login a{
+    color: #1C1E21;
+    font-weight: bold;
+}
+@media only screen and (max-width: 1285px) {
+    .loginpage-left h2{
+        line-height: 33px;
+    }
+    .loginpage-left-logo{
+        padding: 112px 0 14px 0;
+    }
+}

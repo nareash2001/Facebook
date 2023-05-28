@@ -1,0 +1,135 @@
+.homeprofilecontainer {
+    margin: 4px 16px 16px 16px;
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column !important;
+    height: fit-content !important;
+    padding: 4px;
+    gap: 2px !important;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+
+}
+
+.homeprofilecontainer a {
+    display: flex;
+    padding: 13px 8px;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+    box-sizing: border-box;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 10px;
+}
+
+.homeprofilecontainer a img {
+    width: 36px;
+    height: 36px;
+}
+
+.homeprofilecontainer a:hover,
+.homeprofilelink:hover {
+    background-color: #E4E6EB;
+}
+
+.homeprofileline {
+    width: 100%;
+    border-bottom: 1px solid #E4E6EB;
+}
+
+.homeprofilelink {
+    width: 100%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: left !important;
+    padding: 10px 4px;
+    color: #1876F2;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.homeprofilesettingicon {
+    width: 36px;
+    height: 36px !important;
+    background-color: #E5E7EB;
+    border-radius: 50px;
+}
+
+.homeprofilesettingiconimg {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/pd14Byg6X3h.png);
+    background-position: -147px -105px;
+}
+
+.homeprofilesettingbutton {
+    width: 100%;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: fit-content !important;
+    padding: 8px;
+    gap:12px !important;;
+    cursor: pointer;
+    border-radius: 8px;
+    justify-content: left !important;
+}
+
+.homeprofilesettingbutton:hover {
+    background-color: #f1f1f1;
+}
+
+.homeprofilearrowicon {
+    display: flex;
+    width:85%;
+    margin-top: -1px;
+    box-sizing: border-box;
+    justify-content: space-between !important;
+}
+
+.homeprofilearrowicon span {
+    width: fit-content !important;
+    background-color: transparent !important;
+}
+
+.homeprofilearrowicon i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yn/r/pd14Byg6X3h.png);
+    background-position: -108px -26px;
+    background-size: auto;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.homeprofilehelpiconimg {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/OMygy4CUpcM.png);
+    background-position: 0px -276px;
+}
+
+.homeprofiledisplayiconimg {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/nDBZ6P-4lV0.png);
+    background-position: 0px -301px;
+}
+
+.homeprofilefeedbackiconimg {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yk/r/OMygy4CUpcM.png);
+    background-position: 0px -129px;
+}
+
+.homeprofilelogiconimg {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yS/r/nDBZ6P-4lV0.png);
+    background-position: 0px -280px;
+}
+
+.homeprofileiconcommon {
+    background-size: auto;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}

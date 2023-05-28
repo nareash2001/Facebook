@@ -1,0 +1,69 @@
+.storycreatepageleftnavi{
+    margin-right: 360px;
+}
+.storycreatenaviheadersettingicon i{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/BhPUqc-xcfG.png);
+    background-position: -63px -105px;
+    background-size: auto;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.storycreatenaviheadersettingicon{
+    height:36px;
+    width: 36px;
+    background-color: var(--bodycolor);
+    border-radius: 50px;
+    margin-top: -10px;
+}
+.storycreatenaviheadersettingicon:hover{
+    background-color: #dbdee0;
+}
+.storycreatepageleftnaviheader{
+    font-size:24px;
+    font-weight:600;
+    font-family: var(--font);
+    padding: 26px 16px 23px;
+    justify-content: space-between;
+}
+.storycreatenaviprofile{
+    padding: 0 16px 29px;
+    gap:12px;
+    font-family: var(--font);
+    font-size: 17px;
+    border-bottom: 1px solid var(--bodycolor);
+}
+.storycreatenaviprofile img{
+    height: 60px;
+    margin-top:-1px;
+    width: 60px;
+    border-radius: 50px;
+}
+.storycreatenaviscroll{
+    overflow-y:hidden;
+    height: calc(100% - 126px);
+}
+.storycreatenaviscroll:hover{
+overflow-y: auto;
+margin-right: -16px;
+}
+.storycreatenaviscroll::-webkit-scrollbar {
+    width: 16px;
+}
+
+.storycreatenaviscroll::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.storycreatenaviscroll::-webkit-scrollbar-thumb {
+    background:transparent;
+    border-radius: 100px;
+    border-left: 3px solid transparent;
+    border-right: 5px solid transparent;
+}
+@media only screen and (max-width: 900px) {
+    .storycreatepageleftnavi{
+        display: none;
+    }
+}

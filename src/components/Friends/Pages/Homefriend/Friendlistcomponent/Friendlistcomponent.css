@@ -1,0 +1,88 @@
+.friendlistcomponent {
+    padding: 4px;
+    max-width: 250px;
+    min-width: 200px;
+    width: fit-content;
+    box-sizing: border-box;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.friendlistbody {
+    /* width:calc(100% - 4px); */
+    width: 100%;
+    border: 1px solid #CED0D4;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.friendlistbody a img {
+    width: 100%;
+    /* max-width: 250px;
+    min-width: 160px; */
+    /* object-fit:fill !important;  */
+   
+}
+.friendlisttitle{
+    margin: 6px 0 8px;
+    font-weight: 600;
+    font-family: var(--font);
+    padding: 0 12px;
+    font-size: 1.0625rem;
+}
+.friendlisttitle1{
+    width: fit-content;
+    margin:-2px 10px 4px;
+    font-family: var(--font);
+    font-size: .9375rem;
+    color: #65676B;
+    gap: 2px;
+}
+.friendlisttitle1right{
+    margin-top: 1px;
+}
+.friendlisttitle2{
+    flex-direction: column;
+    margin: 10px 12px 12px ;
+    gap: 6px;
+}
+.addfriendbutton{
+  color: var(--bluecolor);
+  background-color: #E7F3FF;
+}
+.removefriendbutton{
+    background-color: #E4E6EB;
+}
+.addfriendbutton:hover{
+    background-color: #d0dfec;
+  }
+.removefriendbutton:hover{
+    background-color: #d4d5da;
+}
+.removefriendbutton,.addfriendbutton{
+    font-weight: 600;  
+    outline: none;
+    border: none;
+    font-size: .9375rem;
+    font-family: var(--font);
+    width: 100%; 
+    height: 36px;
+    border-radius: 6px;
+}
+.friendlisttitle1left .css-1wlk0hk-MuiAvatar-root{
+    height: 16px;
+    width: 16px;
+}
+.friendlistcancelrequestcontainer{
+    margin: 54px 12px 12px ;
+}
+.friendlistrequest{
+    width: fit-content;
+    margin:-1px 12px 4px;
+    font-family: var(--font);
+    font-size: .9375rem;
+    color: #65676B;
+}

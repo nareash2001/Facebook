@@ -1,0 +1,128 @@
+.homecontact {
+    padding:8px 0;
+    width: 303.5px;
+    /* max-width:360px; */
+    min-width:280px;
+    max-height: calc(100vmin - 72px);
+    overflow-y:hidden;
+    overflow-x: hidden;
+    position: fixed;
+    /* right: 0; */
+}
+.homecontact:hover{
+    overflow-y: auto;
+}
+.homecontact:hover .contact{
+    margin-right:-16px;
+}
+
+.homecontact::-webkit-scrollbar {
+    width: 16px;
+}
+
+.homecontact::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.homecontact::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 100px;
+    border-left: 3px solid #F1F2F4;
+    border-right: 5px solid #f1f2f4
+}
+
+.birthdaytitle{
+    padding: 17px 16px 4px 15.5px;
+    color: #65676B;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+}
+.birthdaylist{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 4px 8px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    height: 44px;
+}
+.birthdaylist img{
+    width: 22.5px;
+    margin-bottom: 1px;
+    margin-right: 13px;
+}
+.birthdaylist:hover{
+    background-color: #E4E6EB;
+}
+.birthdayline{
+    margin:8px 15px 8px;
+    border-bottom: 1px solid #ced0d4;
+}
+.contactTitle{
+    padding:0 16px 0 15.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #65676B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacticon{
+    display: flex;
+    align-items: center;
+}
+.contacticon span{
+   height: 36px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border-radius: 50px;
+    width: 36px;
+   cursor: pointer;
+    margin-left: 8px;
+}
+.contacticon span:hover{
+    background-color: #e1e2e4e0;
+}
+.contacticonoption{
+    margin-right: -8px;
+}
+.contacticonsearch,.contacticonvideo{
+   
+    width: 32px !important;
+    height: 32px !important;
+    margin-bottom: -3px;
+}
+.contacticonsearch svg,.contacticonvideo svg{
+    height:16px;
+    width:16px;
+}
+.contacticonoption svg{
+    height: 20px;
+    width: 20px;
+}
+.contactgroup{
+    padding:0 16px 0 15.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: #65676B;
+    margin-bottom: 5px;
+}
+.contactgroupcreate div{
+    background-color:#E4E6EB;
+    border-radius: 50px;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight:600;
+    color: #3B3D40;
+    margin-right:10.5px !important;
+}

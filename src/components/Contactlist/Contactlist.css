@@ -1,0 +1,61 @@
+.contactlist {
+    display: flex;
+    margin: 0 8px;
+    cursor: pointer;
+    border-radius: 7px;
+    height: 44px;
+    padding: 0 7px;
+    align-items: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contactlist:hover {
+    background-color: #E4E6EB;
+}
+
+.contactlist:hover.contactactive {
+    border-color: #E4E6EB;
+}
+
+.contactlist div {
+    display: flex;
+    margin-right: 2.5px;
+}
+
+.contactactive {
+    width: 6px;
+    height: 6px;
+    border: 1.8px solid#F1F2F4;
+    background-color: #31a24c;
+    position: relative;
+    border-radius: 50px;
+    bottom: -20px;
+    right: 8px
+}
+.contactlist div img {
+    height: 28px;
+    width: 28px;
+    border-radius: 50px;
+}
+.contactinactive {
+    border:none;
+    background-color:transparent;
+}
+
+.contactstoryactive{
+    box-sizing: border-box;
+    border: 2px solid #1977F2;
+    border-radius: 50px;
+    height:32px;
+}
+.contactstoryactive img{
+    box-sizing: border-box;
+    border: 2px solid white;
+}
+.contactinactive{
+    margin-right:10px !important;
+}
+.contactstoryinactive{
+    
+}

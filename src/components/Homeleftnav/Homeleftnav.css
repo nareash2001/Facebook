@@ -1,0 +1,177 @@
+.homeleftnav {
+    width: 303.5px;
+    min-width:280px;
+    max-height: calc(100% - 56px);
+    overflow-y: hidden;
+    position: fixed;
+    left:0
+}
+
+.homeleftnav:hover {
+    overflow-y: auto;
+}
+
+.homeleftnav::-webkit-scrollbar {
+    width: 16px;
+}
+
+.homeleftnav::-webkit-scrollbar-track {
+    background: transparent
+}
+
+.homeleftnav::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 100px;
+    border-left: 3px solid #F1F2F4;
+    border-right: 5px solid #f1f2f4
+}
+
+.homeleftnavlist {
+    padding: 16px 8px 0 8px;
+}
+
+.homeleftnavlist a div {
+    height: 44px;
+    font-size: 15px;
+    padding: 0 8px;
+    display: flex;
+    border-radius: 5px;
+    align-items: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homeleftnavlist a div:hover,
+.leftnav-seemore:hover {
+    background-color: #e1e2e4e0;
+}
+
+.homeleftnavlist a div img {
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+    margin-right: 6px;
+    margin-left: -4px;
+    transform: scale(.77777777);
+}
+.homeleftnavlist a div i{
+    width: 36px;
+    height: 36px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right:6px;
+    margin-left: -4px;
+    transform: scale(.77777777);
+}
+.leftnaviconFriends{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/ELk7Nvr1G3K.png);
+    background-position: 0px -296px;
+}
+.leftnaviconGroups{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/ELk7Nvr1G3K.png);
+    background-position: 0px -74px;
+}
+.leftnaviconMarketplace{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/ELk7Nvr1G3K.png);
+    background-position: 0px -407px;
+}
+.leftnaviconMessenger{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yb/r/1nD3zChfcfk.png);
+    background-position: 0px -37px
+}
+.leftnaviconMemories{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/ELk7Nvr1G3K.png);
+    background-position: 0px -444px;
+}
+.leftnaviconSaved{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/ELk7Nvr1G3K.png);
+    background-position: 0px -185px;
+}
+.leftnaviconWatch{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/ELk7Nvr1G3K.png);
+    background-position: 0px -518px;
+}
+.leftnaviconPages{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/ELk7Nvr1G3K.png);
+    background-position: 0px -111px;
+}
+.leftnaviconBlood{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y7/r/z3JoyCWlf8g.png);
+    background-position: -722px -175px;
+}
+.leftnaviconFundraisers{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/ELk7Nvr1G3K.png);
+    background-position: 0px -333px;
+}
+.leftnaviconGaming{
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ym/r/ELk7Nvr1G3K.png);
+    background-position: 0px -37px;
+}
+.leftnav-seemore {
+    display: flex;
+    padding-left: 8px;
+    height: 44px;
+    border-radius: 5px;
+    align-items: center;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.leftnav-seemore div {
+    width: 28px;
+    height: 28px;
+    border-radius: 50px;
+    background-color: #E4E6EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+#dispalyid {
+    display: block;
+}
+
+#displaynoneid {
+    display: none;
+}
+
+.homeleftnavlist-extra {
+    padding-top: 0;
+}
+
+.homeleftnavline {
+    margin: 0 16px;
+    margin-top: 7px;
+    border-bottom: 1px solid #ced0d4;
+}
+.homeleftnavfotter{
+   padding:30px 16px 10px 16px
+}
+
+
+
+@media screen and (max-width:1300px) {
+    .homeleftnavlist a div img {
+        width: 36px;
+        margin-right: 12px;
+    }
+
+    .homeleftnavlist a div {
+        height: 52px;
+    }
+
+}
+@media screen and (min-width:1100) {
+    .homeleftnavlist a div img {
+       
+        margin-left: 0px;
+        transform: scale(0);
+    }
+    .homeleftnavlist a div i{
+       
+        margin-left:0px;
+        transform: scale(0);
+    }
+}

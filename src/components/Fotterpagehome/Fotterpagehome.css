@@ -1,0 +1,28 @@
+.fotterpagehome {
+    padding: 5px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start !important;
+    gap:0px !important
+}
+
+.fotterpagehome li {
+    list-style: none;
+    display: flex;
+    width: fit-content;
+    color: #65676B;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fotterpagehome li span {
+    margin: 0 3.75px
+}
+
+.fotterpagehome li a {
+    color: #65676B;
+}
+
+.fotterpagehome li a:hover {
+    text-decoration: underline;
+}

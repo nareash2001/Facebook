@@ -1,0 +1,197 @@
+.profilebackgroundouter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to top, #FFFFFF, rgba(255, 255, 255.9), rgba(255, 255, 255, .7), rgba(255, 255, 255, .4), rgba(255, 255, 255, 0));
+}
+
+.profilebackground {
+    width: 940px;
+    height: 349px;
+    border-radius: 0 0 10px 10px;
+    overflow: hidden;
+    background-color: aqua;
+}
+
+.profilebackground img {
+    width: 100%;
+}
+
+.profilebackgroundedit {
+    position: relative;
+    background-color: #FFFFFF;
+    top: -740px;
+    float: right;
+    right: 32px;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    padding: 0 12px;
+    height: 36px;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    gap: 6px;
+}
+
+.profilebackgroundedit:hover {
+    background-color: #f1f1f1;
+}
+
+.profilebackgroundediticon {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/HZ2W-oa_YUl.png);
+    background-position: 0px -294px;
+    background-size: auto;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+}
+
+.profileviewcontainer {
+    /* width: 876px; */
+    padding: 0 16px;
+    height: 147px;
+    display: flex;
+}
+
+.profileviewleft {
+    position: relative;
+    top: -30px;
+}
+
+.profileviewleft img {
+    width: 168px;
+    height: 168px;
+    border-radius: 100px;
+    border: 4px solid white;
+}
+
+.profileviewchangeicon {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    cursor: pointer;
+    position: relative;
+    top: 129px;
+    right: 47px;
+    float: right;
+}
+
+.profileviewchangeicon:hover {
+    background-color: #dddee0;
+}
+
+.profileviewchangeicon span {
+    background-image: url("https://static.xx.fbcdn.net/rsrc.php/v3/ys/r/WaycVl4Q8tE.png");
+    background-position: 0px -192px;
+    background-size: auto;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.profileviewright {
+    display: flex;
+    margin-left: -22px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profileviewrightleft {
+    margin-top: 25px;
+    width: 388px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.profileviewrightleft a {
+    color: #65676B;
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.profileviewrightleft a:hover {
+    text-decoration: underline;
+}
+
+.profileviewrightleft div img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50px;
+    overflow-y: hidden;
+    margin-right: -4px;
+    border: 2px solid #FFFFFF;
+}
+
+.profileviewrightright {
+    display: flex;
+    align-items:flex-end;
+    color: white;
+    padding-left: 30px;
+    gap: 8px;
+    padding-bottom: 17px;
+}
+
+.profileviewrightright a {
+    display: flex;
+    align-items: center;
+    background-color: #1A75E4;
+    padding: 0 12px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    height: 36px;
+    border-radius: 5px;
+}
+
+.profileviewrightright a img {
+    margin-right: 7px;
+}
+
+.profileeditbutton {
+    padding: 0 12px;
+    width: fit-content;
+    background-color: #E5E7EB;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 5px;
+    gap: 7px;
+}
+
+
+.profilenav{
+    margin-top: 15px;
+    width: 876px;
+    border-top:1px solid #CCCED2;
+}
+.profilenav div{
+    display: flex;
+
+}
+.profilenav a{
+    height: 57px;
+    width: fit-content;
+    padding: 0 16px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+} 

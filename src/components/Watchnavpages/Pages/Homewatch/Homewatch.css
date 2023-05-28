@@ -1,0 +1,11 @@
+.homewatch{
+    max-width: 740px;
+    margin:0 auto;
+    padding: 20px 32px 0px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.homewatchinfintescroll{
+    overflow:visible !important;
+}
