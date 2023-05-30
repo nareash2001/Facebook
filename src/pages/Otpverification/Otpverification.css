@@ -1,0 +1,120 @@
+.otpverification_body {
+    background-color: var(--bodycolor);
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.otpverification_top {
+    height: 56px;
+    background-color: #fff;
+    padding: 0 16px;
+    width: 100%;
+    box-sizing: border-box;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.otpverification_top i {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/x4yKeabPD6b.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 100%;
+    height: 40px !important;
+    width: 40px !important;
+}
+
+.otpverification_top span {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yG/r/yKvhN1B5Q9J.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: -85px -98px;
+    display: block;
+    height: 16px;
+    opacity: .6;
+    overflow: hidden;
+    text-indent: -999px;
+    white-space: nowrap;
+    width: 16px;
+    margin-right: -3px;
+}
+
+.otpverification_form {
+    width: 500px;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1);
+    padding: 0 16px;
+}
+
+.otpverification_heading {
+    padding: 18px 0px;
+    border-bottom: 1px solid var(--bodycolor);
+    color: #1c1e21;
+    font-family: var(--font);
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.otpverification_heading2 {
+    padding: 16px 0px 20px;
+    color: #606770;
+    font-family: var(--font);
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 19px;
+}
+
+.otpverification_code input {
+    padding: 18px 40px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    /* box-sizing: border-box; */
+    color: #1c1e21;
+    font-size: 16px;
+    line-height: 1.25;
+    outline: none;
+    width: 55px;
+}
+
+.otpverification_code input:focus {
+    border-color: var(--bluecolor);
+    box-shadow: rgba(24, 118, 242, .2) 0 0 0 3px inset
+}
+.otpverification_sent{
+    margin: 15px 0;
+}
+.otpverification_sent span{
+    color: var(--bluecolor);
+    font-family: var(--font);
+    font-size: .9375rem;
+    line-height: 36px;
+}
+.otpverification_formbutton{
+    border-top: 1px solid var(--bodycolor) ;
+    padding: 12px 0;
+    gap: 8px;
+    justify-content: flex-end;
+}
+.otpverification_formbutton button{
+    height: 36px;
+    border: none;
+    background-color: var(--bodycolor);
+    border-radius: 6px;
+    padding: 0 12px;
+    color: #1c1e21;
+    font-size: .9375rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.otpverification_continuebutton{
+    padding: 0 40px !important;
+    opacity: 0.6;
+    cursor:default !important;
+}
+.otpverification_activebutton{
+    padding:0 40px !important;
+    background-color: var(--bluecolor) !important;
+    color: #fff !important;
+}

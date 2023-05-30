@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 import Avatar from '@mui/material/Avatar';
 import AvatarGroup from '@mui/material/AvatarGroup';
 import { useState } from 'react';
-import {Removefriendlistsuggestion,Addfriendlistsuggestion} from "../../../../../Util/Getdata/getdata"
+import {Removefriendlistsuggestion,Addfriendlistsuggestion, Cancelfriendrequestsent} from "../../../../../Util/Getdata/getdata"
 const Friendlistcomponent = (props) => {
   const [state,setState]=useState({
     remove:1,
@@ -31,8 +31,8 @@ const Friendlistcomponent = (props) => {
          <div className='friendlisttitle1 displayflexalign'>
            <div className='friendlisttitle1left'>
            <AvatarGroup max={2}>
-  <Avatar alt="Remy Sharp" src="https://res.cloudinary.com/dym5bpsql/image/upload/v1684922239/avathar_fiz3it.jpg" />
-  <Avatar alt="Remy Sharp" src="https://res.cloudinary.com/dym5bpsql/image/upload/v1684922239/avathar_fiz3it.jpg" />
+  <Avatar alt="" src="https://res.cloudinary.com/dym5bpsql/image/upload/v1684922239/avathar_fiz3it.jpg" />
+  <Avatar alt="" src="https://res.cloudinary.com/dym5bpsql/image/upload/v1684922239/avathar_fiz3it.jpg" />
 </AvatarGroup>
            </div>
            <div className='friendlisttitle1right'>3 mutual friends</div> 
@@ -45,7 +45,7 @@ const Friendlistcomponent = (props) => {
         <>
         <div className='friendlistrequest'>Request sent</div>
         <div className='friendlistcancelrequestcontainer'>
-          <button  className='clusor removefriendbutton' onClick={()=>setState({...state,request:1})}> Cancel</button>
+          <button  className='clusor removefriendbutton' onClick={()=>{setState({...state,request:1});Cancelfriendrequestsent({id:state.id})}}> Cancel</button>
         </div>
         </>
 }

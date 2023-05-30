@@ -8,7 +8,9 @@ import {Textstorybody,Textstorynavi} from './Textstory/Textstory'
 const Create = () => {
   useEffect(() => {
     store.createstorymessageicon = 0;
+    console.log("hii1")
     return () => {
+      console.log("bye")
       store.createstorymessageicon = 1
     }
   }, [])

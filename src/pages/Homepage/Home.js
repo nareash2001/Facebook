@@ -13,6 +13,7 @@ import Gamespage from "../Gamespage/Gamepage"
 import Profilepage from '../Profilepage/Profilepage';
 import Friends from "../Friendspage/Friends";
 import Story from "../Story/Story"
+import Bookmark from '../Bookmark/Bookmark';
 
 const Home = () => {
   useEffect(() => {
@@ -36,6 +37,7 @@ const Home = () => {
           <Route path="/friends/:id" element={<Friends/>}/>           
           <Route path="/story" element={<Story/>}/>
           <Route path="/story/:id" element={<Story/>}/>
+          <Route path="/bookmark" element={<Bookmark/>}/>
         </Routes>
       </div>
     </div>

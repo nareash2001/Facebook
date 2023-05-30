@@ -15,7 +15,7 @@
     display: flex;
     justify-content: flex-end;
 }
-@media screen and (max-width:1230px) {
+@media screen and (max-width:1100px) {
     .homeleftnav-outer,.homecontactlist{
         display: none;
     }

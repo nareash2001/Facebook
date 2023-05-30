@@ -1,19 +1,28 @@
 import React from 'react'
 import "./Homecontact.css"
 import Contactlist from '../Contactlist/Contactlist'
+import { useState } from 'react'
+import { useEffect } from 'react'
+import { Birthadytoday } from '../../Util/Getdata/getdata'
 // import { ContactList, Grouplist } from "../../Assert/Contactlist/Contactlist"
 const Homecontact =() => {
-
+ 
+  const [state,setState]=useState([]);
+    useEffect(()=>{
+          Birthadytoday(setState)
+    },[])
   return (
     <div className='homecontact'>
+   {  state.length? <>
       <div className='birthdayview'>
         <div className='birthdaytitle'>Birthdays</div>
         <div className='birthdaylist'>
           <img src="https://res.cloudinary.com/dym5bpsql/image/upload/v1680670592/gift_udlkae.png" alt="" />
           <span><strong>Rahman Rj</strong>'s birthday is today.</span>
         </div>
-      </div>
-      <div className='birthdayline'></div>
+      </div> 
+       <div className='birthdayline'></div>
+       </>:<></>}
       <div className='contact'>
         <div className='contactTitle'>
           <span>Contacts</span>

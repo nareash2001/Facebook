@@ -5,7 +5,7 @@ import Fotter from '../../components/Fotter/Fotter';
 import Signup from '../../components/Signupdialogbox/Signup';
 import "./Loginpages.css";
 const Loginpages = () => {
-  const [signup, setSignup] = useState(true);
+  const [signup, setSignup] = useState(false);
   const dialogbox = () => {
     setSignup(signup===true?false:true);
   }

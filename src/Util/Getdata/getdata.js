@@ -59,11 +59,15 @@ export const Friendlistsuggestion=async()=>{
 export const Removefriendlistsuggestion=async(data)=>{
   // console.log(data)
   let res=await Apicall("patchheader",data,"friends/suggestions")
-  console.log(res)
+  console.log(res.data.message)
 }
 export const Addfriendlistsuggestion=async(data)=>{
    let res=await Apicall("postheader",data,"friends/suggestions")
-   console.log(res)
+   console.log(res.data.message)
+}
+export const Cancelfriendrequestsent=async(data)=>{
+  let res=await Apicall("patchheader",data,"friends/requests")
+  console.log(res.data.message)
 }
 export const Postcreateimg=async(form)=>{
  await Apicall("postheader",form,"home/post")
@@ -106,4 +110,28 @@ export const Postlikesetup=async(data)=>{
   // console.log(data)
   await Apicall("postheader",data,"liking")
   // console.log(res)
+}
+export const Signupcall=async(data,store,navigate)=>{
+  let res=await Apicall("post",data,"signup")
+  // console.log(data)
+  if(res.data.message==="sucess"){
+    Signupotpcall({email:data.email})
+    store.email=data.email
+    store.password=data.password
+   
+ navigate("./confirmemail")
+  }
+}
+export const Signupotpcall=async(data)=>await Apicall("post",data,"signup/otp")
+
+export const Signupotpverifer=async(data,store)=>{
+  let res=await Apicall("post",data,'signup/otp/verify')
+  if(res.data.message==="verified"){
+                 await Callapi({email:store.email,password:store.password})
+  }
+  // console.log(res)
+}
+export const Birthadytoday=async(state)=>{
+  let res=await Apicall("get","","todayBirthday")
+  console.log(res)
 }

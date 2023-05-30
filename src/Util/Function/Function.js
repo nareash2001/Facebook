@@ -180,3 +180,8 @@ export const Postcreate = async (data, img) => {
         console.log("ji")
     }
 }
+
+export const Conformemail=async(value,setState)=>{
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    setState(emailRegex.test(value));
+}

@@ -128,12 +128,12 @@ export const Homeleftnavlist = [
         link: "gaming",
         itag:0
     },
-    // {
-    //     img: "https://res.cloudinary.com/dym5bpsql/image/upload/v1680528185/live_1_kaqptq.png",
-    //     name: "Live videos",
-    //     link: "livevideo",
-    //     itag:1
-    // },
+    {
+        img: "https://res.cloudinary.com/dym5bpsql/image/upload/v1680528185/live_1_kaqptq.png",
+        name: "Live videos",
+        link: "livevideo",
+        itag:0
+    },
    
     
     {
@@ -143,12 +143,12 @@ export const Homeleftnavlist = [
         itag:0
     },
   
-    // {
-    //     img: "https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/oEGIppgu8A0.png",
-    //     name: "Stories",
-    //     link: "stories",
-    //     itag:0
-    // },
+    {
+        img: "https://static.xx.fbcdn.net/rsrc.php/v3/yz/r/oEGIppgu8A0.png",
+        name: "Stories",
+        link: "stories",
+        itag:0
+    },
    
 ];
 export const Homeleftnavfooter=[

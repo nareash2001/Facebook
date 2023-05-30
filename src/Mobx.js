@@ -3,7 +3,7 @@ import { observable } from "mobx";
 const mobxstore={
 Login:1,
 Profile:0,
-Contactlist:"",
+Contactlist:[],
 Findaccount:"",
 createpostdialog:false,
 createstorymessageicon:1,
@@ -12,6 +12,8 @@ textstorycontent:"",
 textstorystyle:0,
 textstorybackground:1,
 friendlistsuggestion:[],
+email:"",
+password:"",
 post:{
     arr: [],
     hasMore: true
