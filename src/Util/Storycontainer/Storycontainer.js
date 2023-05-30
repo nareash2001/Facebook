@@ -2,11 +2,12 @@ import {Reellist} from "../../Assert/List/List"
 import {Link} from "react-router-dom"
 export const Storysetlist = (list) => {
     let arr = [];
+    console.log(list.length)
     for (let i = 0; i <list.length; i++) {
-        arr.push(<Link to="" className="storysetview" key={list[i].story_id}>
-            <img className="storyviewbackgroungimg"src={list[i].story} alt="" />
-            <div className="storysetviewouter"><img className="storyviewdpimg"id={1?"storycontaineractive":""} src={list[i].profile} alt="" />
-            <div>{list[i].first_name+" "+list[i].last_name}</div>
+        arr.push(<Link to={`./story/${i}`} className="storysetview" key={i}>
+            <img className="storyviewbackgroungimg"src={list[i][(list[i].length -2)]} alt="" />
+            <div className="storysetviewouter"><img className="storyviewdpimg"id={1?"storycontaineractive":""} src={list[i][0]} alt="" />
+            <div>{list[i][2]+" "+list[i][3]}</div>
             </div>
         </Link>)
     }

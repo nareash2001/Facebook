@@ -16,7 +16,8 @@ export const Contactlist=async(store)=>{
 export const Storylist=async(setStory)=>{
   let res=await Apicall("get","","story");
   if(res.status===200){
-    setStory(res.data.result)
+    console.log(res.data.message)
+    setStory(res.data.message)
   }
 }
 export  const Callapi=async(logindata,store)=>{

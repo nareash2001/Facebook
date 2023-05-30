@@ -1,0 +1,39 @@
+.storyhomenavlisthover{
+    border-radius: 6px;
+    margin: 0 8px;
+    padding:8px;
+    gap:12px
+}
+.storyhomenavlisthover:hover{
+    background-color: rgba(0, 0, 0, 0.10);
+}
+.storyhomenavlistimg{
+    height: 60px;
+    width: 60px;
+    border:3px solid var(--bluecolor);
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+.storyhomenavlistimg img{
+    height:100%;
+    width: 100%;
+    box-sizing: border-box;
+    border: 3px solid #fff;
+    border-radius: 50px;
+   
+}
+.storyhomenavlisthoverright{
+    justify-content: center;
+    flex-direction: column;
+    font-family:var(--font);
+    gap:2px
+}
+.storyhomenavilistheading3{
+    font-size: .9375rem;
+    color: var(--bluecolor);
+    display: flex;
+    gap: 13.5px;
+}
+.storyhomenavilistheading3 span{
+    color: #65676B;
+}

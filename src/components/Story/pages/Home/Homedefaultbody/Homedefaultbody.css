@@ -1,0 +1,18 @@
+.homedefaultbody{
+    width:100%;
+    height:100%;
+    background-color: #F0F2F5;
+    color: #65676B;
+    font-family: var(--font);
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.homedefaultbody img{
+    height: 112px;
+    width: 112px;
+    margin-bottom: 20px;
+}
+.homedefaultbody div{
+    align-items: center;
+    flex-direction: column;
+}
