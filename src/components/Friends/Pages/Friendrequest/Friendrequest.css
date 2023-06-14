@@ -39,3 +39,42 @@
     font-weight: normal;
   
 }
+.friendsrequestright{
+    height:calc(100vh - 56px);
+    width: 100%;
+}
+.friendsrequestright div{
+    flex-direction: column;
+    gap: 12px;
+   
+}
+.friendsrequestright img{
+    height: 112px;
+}
+.friendsrequestright h5{
+    color: #65676B;
+    font-size: 1.25rem;
+    font-family: var(--font);
+    font-weight: 700;
+}
+.friendsrequestlist{
+    width: 100%;
+    height: calc(100vh - 130px);
+    overflow-y: auto;
+}
+.friendsrequestlisttitle{
+    padding: 13px 16px 4px;
+    font-family: var(--font);
+}
+.friendsrequestlisttitle h4{
+    font-size:1.0625rem;
+}
+.friendsrequestlisttitle div{
+    color: var(--bluecolor);
+    font-size: .8125rem;
+    margin-top: 9px;
+    margin-bottom: 5px;
+}
+.friendsrequestlistbody{
+    padding: 0 8px;
+}

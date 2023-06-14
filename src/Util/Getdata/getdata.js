@@ -136,3 +136,8 @@ export const Birthadytoday=async(state)=>{
   let res=await Apicall("get","","todayBirthday")
   console.log(res)
 }
+export const FriendRequestlistcall=async(setState)=>{
+  let res=await Apicall("get","","friends/requests")
+  setState(res.data.result)
+  console.log(res.data.result)
+}
