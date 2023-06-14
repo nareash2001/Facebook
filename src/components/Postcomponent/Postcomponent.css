@@ -88,6 +88,7 @@ height:20px;
     padding:4px 16px 4px;
     font-family: var(--font);
     font-size: 15px;
+    white-space:pre-line;
 }
 .postcontent2 img,.postcontent2{
     width: 500px;
