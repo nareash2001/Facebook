@@ -10,7 +10,7 @@ const Storyview = () => {
                     </span>
                     </div>
                 <div className='storyviewbodycenter'>
-                    <img src="https://scontent.fmaa2-2.fna.fbcdn.net/v/t39.30808-6/350673738_1599679377222287_3314693236186900618_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5b7eaf&_nc_ohc=VmPiIEfMpxsAX8WjO90&_nc_ht=scontent.fmaa2-2.fna&oh=00_AfC5nE4Q7Ve0AuDxhzHjNWj1OmOWG4K8V9Y_N6P7h5wAVA&oe=647B634C" alt=""/>
+                    {/* <img src="https://scontent.fmaa2-2.fna.fbcdn.net/v/t39.30808-6/350673738_1599679377222287_3314693236186900618_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5b7eaf&_nc_ohc=VmPiIEfMpxsAX8WjO90&_nc_ht=scontent.fmaa2-2.fna&oh=00_AfC5nE4Q7Ve0AuDxhzHjNWj1OmOWG4K8V9Y_N6P7h5wAVA&oe=647B634C" alt=""/> */}
                     <div className='storyviewbodycenter2'>
                         <div className='storyviewbodycenter2listouter'></div>
                     </div>

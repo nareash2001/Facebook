@@ -27,7 +27,7 @@ const Home = () => {
                         Your Story
                     </div>
                     <div className='storyhomenavilist'>
-                        <Link to="./create">
+                        <Link to="../story/create">
                             <div className='displayflexalign'>
                                 <span className="displayflexcenter">
                                     <svg fill="currentColor" viewBox="0 0 24 24" width="1em" height="1em"><path d="M18 11h-5V6a1 1 0 0 0-2 0v5H6a1 1 0 0 0 0 2h5v5a1 1 0 0 0 2 0v-5h5a1 1 0 0 0 0-2z"></path></svg>
